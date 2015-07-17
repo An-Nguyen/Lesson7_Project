@@ -1,9 +1,9 @@
-*****************************************************
-Project Name:  Recipe Display Application
-Author: 
-Date:   
+************************************************************************
+Project Name:  Recipe Display Application  --  Project Quiz
+Author: An Nguyen
+Date:   7/13/15
 Participation Assignment (25 points)
-*****************************************************
+************************************************************************
 
 Instructions:  
 Answer the following questions for Lesson 7 Assignment
@@ -13,25 +13,21 @@ Question #1:  (5 points)
 ++++++++++++
 Why should you ensure that the script element that links to the jQuery library file comes before any other script element for a .js file that includes jQuery code?
 
-
-
+If you don't link the library first, the other files have nothing to source from
 
 ++++++++++++
 Question #2:  (5 points)
 ++++++++++++
 Why should you avoid including jQuery in a project if you don't need it?
 
-
-
-
-
+Since jQuery has such a big library, it'll slow down the page if it is not neccessary
 
 ++++++++++++
 Question #3:  (5 points)
 ++++++++++++
 How does every jQuery statement start?
 
-
+with the $ sign
 
 
 
@@ -39,3 +35,13 @@ How does every jQuery statement start?
 Question #4: (10 points)
 ++++++++++++
 What is a Content Delivery Network (CDN)?  List and explain at least FOUR advantages in using a CDN.
+
+CDN is a large distributed system of servers deployed in multiple data centers across the Internet
+1. Decrease Server Load
+    -Content is spread out across several servers as opposed to only one large server
+2. Faster Content Delivery
+    -CDNs place servers as close to a group of users as possible. Latency and packet loss are minimalized due to shorter travel distance.
+3. Increase in the Number of Concurrent Users
+    -CDN can result in high network backbone capacity. This allows more users to access the network at a given time.
+4. 100 Percent Availability
+    -Due to the distribution across many regions, CDNs have automatic server availability sensing mechanisms with instant user redirection.
